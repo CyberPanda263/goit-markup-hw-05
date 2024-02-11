@@ -390,7 +390,9 @@
             <div class="footer_sunscrube">
                 <p class="footer_sunscrube_title">Subscribe</p>
                 <form class="footer_sunscrube_form" name="footer_sunscrube_email" autocomplete="off">
+                    <label class="nfg">
                     <input class="footer_sunscrube_input" type="email" name="sunscrube email" placeholder="E-mail" />
+                    </label>
                     <button class="footer_sunscrube_button" type="submit">
                         Subscribe
                         <svg class="footer_sunscrube_icon" width="24" height="24">
@@ -408,36 +410,44 @@
                     <use href="./images/icons.svg#icon-close_modal"></use>
                 </svg>
             </button>
-            <p class="madal_title">Leave your contacts and we will call you back</p>
+            <p class="modal_title">Leave your contacts and we will call you back</p>
             <form class="modal_form" name="footer_sunscrube_email" autocomplete="off" >
-                <label class="modal_form_label" for="name">Name</label>
-                <div class="modal_form_imput_conteiner">
-                    <input class="modal_form_input" id="name" type="text" name="name" />
-                    <svg class="modal_imput_icon" width="18" height="24">
-                        <use href="./images/icons.svg#icon-form_name"></use>
-                    </svg>
+                <div class="modal_form_item_conteiner">
+                    <label class="modal_form_label" for="user-name">Name</label>
+                    <div class="modal_form_imput_conteiner">
+                        <input class="modal_form_input" id="user-name" type="text" name="name" />
+                        <svg class="modal_imput_icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-form_name"></use>
+                        </svg>
+                    </div>
                 </div>
-                <label class="modal_form_label" for="phone">Phone</label>
-                <div class="modal_form_imput_conteiner">
-                    <input class="modal_form_input" id="phone" type="tel" name="phone" />
-                    <svg class="modal_imput_icon" width="18" height="24">
-                        <use href="./images/icons.svg#icon-form_phone"></use>
-                    </svg>
+                <div class="modal_form_item_conteiner">
+                    <label class="modal_form_label" for="phone">Phone</label>
+                    <div class="modal_form_imput_conteiner">
+                        <input class="modal_form_input" id="phone" type="tel" name="phone" />
+                        <svg class="modal_imput_icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-form_phone"></use>
+                        </svg>
+                    </div>
                 </div>
-                <label class="modal_form_label" for="email">Email</label>
-                <div class="modal_form_imput_conteiner">
-                    <input class="modal_form_input" id="email" type="email" name="email" />
-                    <svg class="modal_imput_icon" width="18" height="24">
-                        <use href="./images/icons.svg#icon-form_email"></use>
-                    </svg>
+                <div class="modal_form_item_conteiner">
+                    <label class="modal_form_label" for="email">Email</label>
+                    <div class="modal_form_imput_conteiner">
+                        <input class="modal_form_input" id="email" type="email" name="email" />
+                        <svg class="modal_imput_icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-form_email"></use>
+                        </svg>
+                    </div>
                 </div>
-                <label class="modal_form_label" for="textarea">Comment</label>
-                <textarea class="modal_form_input modal_form_textarea" id="textarea" name="comment" placeholder="Text input"></textarea>
+                <div class="modal_form_textarea_container">
+                <label class="modal_form_label" for="user-comment">Comment</label>
+                <textarea class="modal_form_input modal_form_textarea" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
+                </div>
                 <div class="modal_checkbox_item">
-                    <input class="modal_form_chekbox visually-hidden" id="policy" type="checkbox" name="polisy" value="true"/>
-                    <label class="modal_form_label" for="policy">
+                    <input class="modal_form_chekbox visually-hidden" id="user-privacy" type="checkbox" name="user-privacy" value="true"/>
+                    <label class="modal_form_label" for="user-privacy">
                         <span class="checkbox_click">
-                            <svg class="modal_chekbox_chekbox" width="10" height="8">
+                            <svg class="modal_chekbox_icon" width="10" height="8">
                                 <use href="./images/icons.svg#icon-checkbox"></use>
                             </svg>
                         </span>
